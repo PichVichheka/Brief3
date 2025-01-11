@@ -1,0 +1,31 @@
+.footer {
+  background-color: #004d00;
+  color: white;
+  padding: 40px 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .recent-works img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.footer .logo img {
+  width: 150px;
+}
+.footer .row {
+  display: flex; /* Make the row a flex container */
+  justify-content: space-between; /* Add space between items */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+.footer .row > div {
+  margin-bottom: 20px;
+  flex: 1; /* Allow columns to grow equally */
+  max-width: 32%; /* Limit max width for proper spacing */
+}
