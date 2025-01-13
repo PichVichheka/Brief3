@@ -130,3 +130,11 @@ section p {
     width: 80%;
   }
 }
+.card-img-top {
+  height: 300px; /* Set a consistent height */
+  object-fit: cover;
+}
+.card-img-top {
+  height: 300px; /* Set a consistent height */
+  object-fit: cover;
+}
