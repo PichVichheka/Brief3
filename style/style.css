@@ -108,6 +108,9 @@ section p {
   .hero-text h1 {
     font-size: 64px;
   }
+  .more {
+    margin-left: -20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -116,6 +119,9 @@ section p {
   }
   .hero-text p {
     font-size: 1rem;
+  }
+  .more {
+    margin-left: -20px;
   }
 }
 
@@ -134,7 +140,6 @@ section p {
   height: 300px; /* Set a consistent height */
   object-fit: cover;
 }
-.card-img-top {
-  height: 300px; /* Set a consistent height */
-  object-fit: cover;
+.text-purple {
+  color: blueviolet;
 }
