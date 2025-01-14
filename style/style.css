@@ -57,7 +57,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.274);
+  background: #00000046;
   z-index: 1;
 }
 
@@ -108,9 +108,6 @@ section p {
   .hero-text h1 {
     font-size: 64px;
   }
-  .more {
-    margin-left: -20px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -119,9 +116,6 @@ section p {
   }
   .hero-text p {
     font-size: 1rem;
-  }
-  .more {
-    margin-left: -20px;
   }
 }
 
@@ -136,19 +130,34 @@ section p {
     width: 80%;
   }
 }
-@media (max-width: 768px) {
-  .card {
-    margin: 10px 0; /* Adds space between cards on smaller screens */
-  }
+.footer {
+  background-color: #004d00;
+  color: white;
+  padding: 40px 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
-@media (max-width: 576px) {
-  .card img {
-    width: 100%; /* Adjusts the logo size on smaller screens */
-    height: auto; /* Maintains aspect ratio */
-  }
+.footer a:hover {
+  text-decoration: underline;
 }
-
-.text-purple {
-  color: blueviolet;
+.footer .recent-works img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.footer .logo img {
+  width: 150px;
+}
+.footer .row {
+  display: flex; /* Make the row a flex container */
+  justify-content: space-evenly; /* Add space between items */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+.footer .row > div {
+  margin-bottom: 20px;
+  flex: 1; /* Allow columns to grow equally */
+  max-width: 32%; /* Limit max width for proper spacing */
 }
