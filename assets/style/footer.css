@@ -7,6 +7,7 @@
   color: white;
   text-decoration: none;
 }
+
 .footer a:hover {
   text-decoration: underline;
 }
@@ -14,14 +15,13 @@
   width: 60px;
   height: 60px;
   object-fit: cover;
-  margin-right: 10px;
 }
 .footer .logo img {
   width: 150px;
 }
 .footer .row {
   display: flex; /* Make the row a flex container */
-  justify-content: space-between; /* Add space between items */
+  justify-content: space-evenly; /* Add space between items */
   flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 .footer .row > div {
