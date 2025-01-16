@@ -74,7 +74,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 96px;
+  font-size: 90px;
 }
 
 .hero-text p {
@@ -82,26 +82,6 @@ body {
 }
 
 /* Content Section */
-section {
-  text-align: center;
-  padding: 50px 15px;
-}
-
-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-section p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.red-line {
-  width: 100%;
-  height: 2px;
-  background-color: red;
-}
 
 /* Responsive Adjustments */
 @media (max-width: 992px) {
@@ -129,4 +109,35 @@ section p {
   .red-line {
     width: 80%;
   }
+}
+.footer {
+  background-color: #004d00;
+  color: white;
+  padding: 40px 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .recent-works img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.footer .logo img {
+  width: 150px;
+}
+.footer .row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer .row > div {
+  margin-bottom: 20px;
+  flex: 1;
+  max-width: 32%;
 }
