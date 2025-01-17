@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Nature Donation Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style3.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://max-themes.net/demos/greennature/images/logo.png"
+            alt="Green Nature Logo"
+          />
+        </a>
+        <!-- Toggler for Mobile View -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="tree.html">Tree</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Seed</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-custom1 mt-1 mx-2" style="width: 70px" href="#"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-custom mt-1 mx-2" style="width: 70px" href="#"
+                >Donate</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Section -->
+        <div class="col-md-6 left-section sticky-section"></div>
+
+        <!-- Right Section -->
+        <div class="col-md-6 right-section align-content-center">
+          <div class="mx-lg-3 pt-3" style="width: 95%">
+            <img
+              src="https://max-themes.net/demos/greennature/images/logo.png"
+              alt=""
+            />
+            <div class="mt-5">
+              <h2>Donate for a healthy planet</h2>
+              <p class="fs-5">
+                Your gift today will push Canada to fulfil its climate
+                commitments, protect nature so it can sustain all life and
+                create resilient communities that benefit everyone.
+              </p>
+              <h2>How much you would like to give ?</h2>
+              <div class="row text-center d-flex align-content-center mt-lg-4">
+                <div class="col-md-3 mb-lg-5 mx-lg-1">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-flower1"></i>
+                    <h5>200$</h5>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3 mx-lg-3">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-flower2"></i>
+                    <h5>180$</h5>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3 mx-lg-3">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-motherboard-fill"></i>
+                    <h5>150$</h5>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3 mx-lg-1">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-apple"></i>
+                    <h5>100$</h5>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3 mx-lg-3">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-tree-fill"></i>
+                    <h5>80$</h5>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3 mx-lg-3">
+                  <div class="p-3 bg-success text-white rounded">
+                    <i class="bi bi-globe-asia-australia"></i>
+                    <h5>50$</h5>
+                  </div>
+                </div>
+
+                <div class="container mt-5">
+                  <h2>Contact Form</h2>
+                  <form action="your-payment-gateway-link-here" method="POST">
+                    <!-- First row: First Name and Last Name -->
+                    <div class="row mb-3">
+                      <div class="col">
+                        <label for="firstName" class="form-label"
+                          >First Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="firstName"
+                          placeholder="Enter your first name"
+                          required
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="lastName" class="form-label"
+                          >Last Name</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="lastName"
+                          placeholder="Enter your last name"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Second row: Email -->
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                      />
+                    </div>
+
+                    <!-- Third row: What to Address -->
+                    <div class="mb-3">
+                      <label for="address" class="form-label"
+                        >What to Address</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="address"
+                        placeholder="Enter the address"
+                        required
+                      />
+                    </div>
+
+                    <!-- Fourth row: What to Do -->
+                    <div class="mb-3">
+                      <label for="todo" class="form-label">What to Do</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="todo"
+                        placeholder="What should be done?"
+                        required
+                      />
+                    </div>
+
+                    <!-- Multiple Bank Logos Above Button -->
+                    <div class="text-center mb-3">
+                      <!-- Bank logos -->
+                      <img
+                        src="https://play-lh.googleusercontent.com/WU6sZMD1UspzwqYnlACtmN60rckp8hoINSgsR21mKLJBbsHPwXtzwvOocpjC7FcO1g=w240-h480-rw"
+                        alt="Bank 1"
+                        class="img-fluid"
+                        style="max-width: 100px; margin: 0 10px; height: 60px"
+                      />
+                      <img
+                        src="https://www.acledasecurities.com.kh/kh/assets/download_material/download-logo-blue.jpg"
+                        alt="Bank 2"
+                        class="img-fluid"
+                        style="max-width: 100px; margin: 0 10px; height: 60px"
+                      />
+                      <img
+                        src="https://www.svgrepo.com/show/328144/visa.svg"
+                        alt="Bank 3"
+                        class="img-fluid"
+                        style="max-width: 100px; margin: 0 10px; height: 90px"
+                      />
+                      <img
+                        src="https://cambodiatrade.com/build/assets/3-5af7a903.png"
+                        alt="Bank 4"
+                        class="img-fluid"
+                        style="max-width: 100px; margin: 0 10px; height: 60px"
+                      />
+                    </div>
+
+                    <!-- Pay to Bank button -->
+                    <button type="submit" class="btn btn-success w-100">
+                      Pay to Bank
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer mt-4 py-4">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 gy-4">
+          <!-- Logo and Description -->
+          <div class="col text-center text-md-start">
+            <div class="logo mb-3">
+              <img
+                src="https://max-themes.net/demos/greennature/images/logo.png"
+                alt="Green Nature Logo"
+                class="img-fluid"
+              />
+            </div>
+            <p class="mb-2">Environment Theme</p>
+            <p>
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. <br />
+              Morbi leo risus, porta.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col">
+            <h5 class="mb-3 text-center text-md-start">Contact Info</h5>
+            <ul class="list-unstyled text-center text-md-start">
+              <li>
+                <strong>Address:</strong> 184 Main Collins Street West Victoria
+                8007
+              </li>
+              <li><strong>Phone:</strong> +855 88 232 386</li>
+              <li>
+                <strong>Email:</strong>
+                <a
+                  href="mailto:contact@greennaturewp.com"
+                  class="text-decoration-none"
+                >
+                  contact@greennaturewp.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Recent Works -->
+          <div class="work">
+            <div class="col">
+              <h5 class="mb-3 text-center text-md-start">Recent Works</h5>
+              <div
+                class="d-flex flex-wrap justify-content-center justify-content-md-start gap-2"
+              >
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_161515241-150x150.jpg"
+                  alt="Work 1"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_133689230-150x150.jpg"
+                  alt="Work 2"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_53600221-150x150.jpg"
+                  alt="Work 3"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_124871620-150x150.jpg"
+                  alt="Work 4"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_281995004-150x150.jpg"
+                  alt="Work 5"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+                <img
+                  src="https://max-themes.net/demos/greennature/upload/shutterstock_256181956-150x150.jpg"
+                  alt="Work 6"
+                  class="img-fluid"
+                  style="width: 80px; height: 80px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
