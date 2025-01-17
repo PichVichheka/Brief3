@@ -131,3 +131,14 @@ html {
   flex: 1; /* Allow columns to grow equally */
   max-width: 32%; /* Limit max width for proper spacing */
 }
+.btn-donation {
+  width: 120px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn-donation.active {
+  background-color: #ffc107 !important; /* Yellow highlight for selected button */
+  border-color: #ffc107 !important;
+  color: #000 !important;
+}
