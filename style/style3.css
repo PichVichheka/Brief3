@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sticky-section,
+  .scrollable-section {
+    width: 100%;
+  }
+
+  .sticky-section {
+    box-shadow: none; /* Remove shadow for better mobile look */
+  }
+}
+.sticky-section {
+  position: sticky;
+  top: 0;
+  height: 70vh;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable-section {
+  overflow-y: auto;
+}
+
+.bg-cusstom {
+  background-color: #dbe8eb;
+}
+.left-section {
+  background: url("https://propulsionquebec.com/wp-content/uploads/2023/07/image-ambition-landscape-750x425.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+}
+
+.right-section {
+  background-color: #8abac5;
+  display: flex;
+  flex-direction: column;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: Tienne, serif;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar-light {
+  background-color: #07470c !important; /* Dark green */
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  color: #c2f0e4 !important; /* Light green */
+}
+
+.btn-custom {
+  background-color: #285a59;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #1e4546;
+}
+
+.btn-custom1 {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.btn-custom1:hover {
+  background-color: rgb(150, 141, 141);
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  background-color: #004d00;
+  color: white;
+  padding: 40px 20px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .recent-works img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.footer .logo img {
+  width: 150px;
+}
+.footer .row {
+  display: flex; /* Make the row a flex container */
+  justify-content: space-evenly; /* Add space between items */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+.footer .row > div {
+  margin-bottom: 20px;
+  flex: 1; /* Allow columns to grow equally */
+  max-width: 32%; /* Limit max width for proper spacing */
+}
