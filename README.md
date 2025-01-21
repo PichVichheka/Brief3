@@ -28,7 +28,7 @@ cd Brief3
 code .
 ```
 
-## We use only :
+## We use only 🧑‍💻 :
 
 Bootstrap
 
@@ -36,7 +36,7 @@ HTML
 
 CSS
 
-## Our website have 6 page
+## Our website have 6 page 📑 :
 
 [Homepage](https://brief3-xi.vercel.app/index.html)
 
@@ -81,4 +81,4 @@ CSS
 - Natural landscapes inspire art, culture, and traditions and offer places for relaxation and adventure.And you well see our project about the environment !
   And you well see our project about the environment !
 
-### If you want to donate you can click here now [Donate](https://brief3-xi.vercel.app/donation.html)
+### If you want to donate you can click here now [Donate](https://brief3-xi.vercel.app/donation.html)💸
