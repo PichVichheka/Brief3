@@ -18,12 +18,12 @@ git clone https://github.com/PichVichheka/Brief3.git
 
 3 .Cd the document
 
-    ```bash
-    cd Brief3
-    ```
+```bash
+cd Brief3
+```
 
 4 .Open vs code
 
-    ```bash
-    code .
-    ```
+```bash
+code .
+```
