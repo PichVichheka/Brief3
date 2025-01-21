@@ -12,9 +12,9 @@ This is the [environment ](https://brief3-xi.vercel.app/) [project create with b
 
 2 .Clone our code in termnal
 
-    ```bash
-    git clone https://github.com/PichVichheka/Brief3.git
-    ```
+```bash
+git clone https://github.com/PichVichheka/Brief3.git
+```
 
 3 .Cd the document
 
