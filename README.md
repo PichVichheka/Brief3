@@ -30,25 +30,25 @@ code .
 
 ## We use only :
 
-### Bootstrap
+Bootstrap
 
-### HTML
+HTML
 
-### CSS
+CSS
 
 ## Our website have 6 page
 
-#### Homepage
+Homepage
 
-#### Aboutpage
+Aboutpage
 
-#### Treepage
+Treepage
 
-#### Seedpage
+Seedpage
 
-#### FQApage
+FQApage
 
-#### Donatepage
+Donatepage
 
 ## Our project is talking about the important of environment ! 🌊🥬
 
