@@ -28,6 +28,28 @@ cd Brief3
 code .
 ```
 
+## We use only :
+
+### Bootstrap
+
+### HTML
+
+### CSS
+
+## Our website have 6 page
+
+#### Homepage
+
+#### Aboutpage
+
+#### Treepage
+
+#### Seedpage
+
+#### FQApage
+
+#### Donatepage
+
 ## Our project is talking about the important of environment ! 🌊🥬
 
 1. Source of Life
@@ -58,23 +80,5 @@ code .
 
 - Natural landscapes inspire art, culture, and traditions and offer places for relaxation and adventure.And you well see our project about the environment !
   And you well see our project about the environment !
-
-6. Economic Value
-
-- Natural resources like minerals, forests, and oceans are the foundation of economies around the world.
-
-- A healthy environment supports industries such as agriculture, tourism, and fishing.
-
-7. Human Health
-
-- Clean air, water, and soil are vital for human health.
-
-- Environmental degradation leads to issues like pollution, which can cause respiratory problems, waterborne diseases, and other health risks.
-
-8. Sustainability for Future Generations
-
-- Protecting the environment ensures that future generations can access the resources and benefits we enjoy today.
-
-- Unsustainable practices risk depleting these resources, leaving behind a less hospitable planet.
 
 ### If you want to donate you can click here now [Donate](https://brief3-xi.vercel.app/donation.html)
